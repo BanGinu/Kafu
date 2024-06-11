@@ -1,0 +1,1749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Body" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;
+
+&lt;head&gt;
+	&lt;!--[if gte mso 9]&gt;&lt;xml&gt;&lt;o:OfficeDocumentSettings&gt;&lt;o:AllowPNG/&gt;&lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;&lt;/o:OfficeDocumentSettings&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+	&lt;meta name="viewport" content="width=device-width"&gt;
+	&lt;!--[if !mso]&gt;&lt;!--&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+	&lt;!--&lt;![endif]--&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;!--[if !mso]&gt;&lt;!--&gt;
+	&lt;!--&lt;![endif]--&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;style type="text/css"&gt;
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		table,
+		td,
+		tr {
+			vertical-align: top;
+			border-collapse: collapse;
+		}
+
+		* {
+			line-height: inherit;
+		}
+
+		a[x-apple-data-detectors=true] {
+			color: inherit !important;
+			text-decoration: none !important;
+		}
+
+		.ie-browser table {
+			table-layout: fixed;
+		}
+
+		[owa] .img-container div,
+		[owa] .img-container button {
+			display: block !important;
+		}
+
+		[owa] .fullwidth button {
+			width: 100% !important;
+		}
+
+		[owa] .block-grid .col {
+			display: table-cell;
+			float: none !important;
+			vertical-align: top;
+		}
+
+		.ie-browser .block-grid,
+		.ie-browser .num12,
+		[owa] .num12,
+		[owa] .block-grid {
+			width: 555px !important;
+		}
+
+		.ie-browser .mixed-two-up .num4,
+		[owa] .mixed-two-up .num4 {
+			width: 184px !important;
+		}
+
+		.ie-browser .mixed-two-up .num8,
+		[owa] .mixed-two-up .num8 {
+			width: 368px !important;
+		}
+
+		.ie-browser .block-grid.two-up .col,
+		[owa] .block-grid.two-up .col {
+			width: 276px !important;
+		}
+
+		.ie-browser .block-grid.three-up .col,
+		[owa] .block-grid.three-up .col {
+			width: 276px !important;
+		}
+
+		.ie-browser .block-grid.four-up .col [owa] .block-grid.four-up .col {
+			width: 138px !important;
+		}
+
+		.ie-browser .block-grid.five-up .col [owa] .block-grid.five-up .col {
+			width: 111px !important;
+		}
+
+		.ie-browser .block-grid.six-up .col,
+		[owa] .block-grid.six-up .col {
+			width: 92px !important;
+		}
+
+		.ie-browser .block-grid.seven-up .col,
+		[owa] .block-grid.seven-up .col {
+			width: 79px !important;
+		}
+
+		.ie-browser .block-grid.eight-up .col,
+		[owa] .block-grid.eight-up .col {
+			width: 69px !important;
+		}
+
+		.ie-browser .block-grid.nine-up .col,
+		[owa] .block-grid.nine-up .col {
+			width: 61px !important;
+		}
+
+		.ie-browser .block-grid.ten-up .col,
+		[owa] .block-grid.ten-up .col {
+			width: 60px !important;
+		}
+
+		.ie-browser .block-grid.eleven-up .col,
+		[owa] .block-grid.eleven-up .col {
+			width: 54px !important;
+		}
+
+		.ie-browser .block-grid.twelve-up .col,
+		[owa] .block-grid.twelve-up .col {
+			width: 50px !important;
+		}
+	&lt;/style&gt;
+	&lt;style type="text/css" id="media-query"&gt;
+		@media only screen and (min-width: 575px) {
+			.block-grid {
+				width: 555px !important;
+			}
+
+			.block-grid .col {
+				vertical-align: bottom;
+			}
+
+			.block-grid .col.num12 {
+				width: 555px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num3 {
+				width: 138px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num4 {
+				width: 184px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num8 {
+				width: 368px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num9 {
+				width: 414px !important;
+			}
+
+			.block-grid.two-up .col {
+				width: 277px !important;
+			}
+
+			.block-grid.three-up .col {
+				width: 185px !important;
+			}
+
+			.block-grid.four-up .col {
+				width: 138px !important;
+			}
+
+			.block-grid.five-up .col {
+				width: 111px !important;
+			}
+
+			.block-grid.six-up .col {
+				width: 92px !important;
+			}
+
+			.block-grid.seven-up .col {
+				width: 79px !important;
+			}
+
+			.block-grid.eight-up .col {
+				width: 69px !important;
+			}
+
+			.block-grid.nine-up .col {
+				width: 61px !important;
+			}
+
+			.block-grid.ten-up .col {
+				width: 55px !important;
+			}
+
+			.block-grid.eleven-up .col {
+				width: 50px !important;
+			}
+
+			.block-grid.twelve-up .col {
+				width: 46px !important;
+			}
+		}
+
+		@media (max-width: 575px) {
+
+			.block-grid,
+			.col {
+				min-width: 320px !important;
+				max-width: 100% !important;
+				display: block !important;
+			}
+
+			.block-grid {
+				width: 100% !important;
+			}
+
+			.col {
+				width: 100% !important;
+			}
+
+			.col&gt;div {
+				margin: 0 auto;
+			}
+
+			img.fullwidth,
+			img.fullwidthOnMobile {
+				max-width: 100% !important;
+			}
+
+			.no-stack .col {
+				min-width: 0 !important;
+				display: table-cell !important;
+			}
+
+			.no-stack.two-up .col {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num4 {
+				width: 33% !important;
+			}
+
+			.no-stack .col.num8 {
+				width: 66% !important;
+			}
+
+			.no-stack .col.num4 {
+				width: 33% !important;
+			}
+
+			.no-stack .col.num3 {
+				width: 25% !important;
+			}
+
+			.no-stack .col.num6 {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num9 {
+				width: 75% !important;
+			}
+
+			.video-block {
+				max-width: none !important;
+			}
+
+			.mobile_hide {
+				min-height: 0px;
+				max-height: 0px;
+				max-width: 0px;
+				display: none;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide {
+				display: block !important;
+				max-height: none !important;
+			}
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class="clean-body" style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: #FFFFFF;"&gt;
+&lt;style type="text/css" id="media-query-bodytag"&gt;
+@media (max-width: 575px) {
+  .block-grid {
+    min-width: 320px!important;
+    max-width: 100%!important;
+    width: 100%!important;
+    display: block!important;
+  }
+  .col {
+    min-width: 320px!important;
+    max-width: 100%!important;
+    width: 100%!important;
+    display: block!important;
+  }
+  .col &gt; div {
+    margin: 0 auto;
+  }
+  img.fullwidth {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+  img.fullwidthOnMobile {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+  .no-stack .col {
+    min-width: 0!important;
+    display: table-cell!important;
+  }
+  .no-stack.two-up .col {
+    width: 50%!important;
+  }
+  .no-stack.mixed-two-up .col.num4 {
+    width: 33%!important;
+  }
+  .no-stack.mixed-two-up .col.num8 {
+    width: 66%!important;
+  }
+  .no-stack.three-up .col.num4 {
+    width: 33%!important
+  }
+  .no-stack.four-up .col.num3 {
+    width: 25%!important
+  }
+}
+&lt;/style&gt;
+	&lt;!--[if IE]&gt;&lt;div class="ie-browser"&gt;&lt;![endif]--&gt;
+	&lt;table class="nl-container" style="table-layout: fixed; vertical-align: top; min-width: 320px; Margin: 0 auto; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; width: 100%;" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="#FFFFFF" valign="top"&gt;
+		&lt;tbody&gt;
+			&lt;tr style="vertical-align: top;" valign="top"&gt;
+				&lt;td style="word-break: break-word; vertical-align: top; border-collapse: collapse;" valign="top"&gt;
+					&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td align="center" style="background-color:#FFFFFF"&gt;&lt;![endif]--&gt;
+					
+						
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid two-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: transparent;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="277" style="background-color:transparent;width:277px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num6" style="max-width: 320px; min-width: 277px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container right fixedwidth" align="right" style="padding-right: 10px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 10px;padding-left: 0px;" align="right"&gt;&lt;![endif]--&gt;&lt;img class="right fixedwidth" align="right" border="0" src="https://i.imgur.com/T0GoJzU.png" alt="logo" title="kafu logo" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 80px; display: block;" width="111"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+			&lt;br&gt;
+			
+						&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid three-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #282164;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#282164;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#282164"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#282164;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 10px; padding-top: 7px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#F4B449;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:7px;padding-right:0px;padding-bottom:0px;padding-left:10px;"&gt;
+												&lt;div style="line-height: 12px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 10px; color: #F4B449;"&gt;
+													&lt;p dir="rtl" style="line-height: 24px; text-align: left; font-size: 10px; margin: 0;"&gt;&lt;span style="font-size: 17px; color: #f2d094;"&gt;&lt;strong&gt;{KafuCount}&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#282164;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:10px;padding-right:0px;padding-bottom:10px;padding-left:0px;"&gt;
+												&lt;div style="font-size: 12px; line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #555555;"&gt;
+													&lt;p dir="rtl" style="font-size: 14px; line-height: 16px; text-align: center; margin: 0;"&gt;&lt;span style="color: #f2f2f2; font-size: 14px; line-height: 16px;"&gt;&lt;strong&gt;&lt;span style="font-size: 16px; line-height: 19px;"&gt;&lt;span style="line-height: 19px; font-size: 13px;"&gt;{receipentName}&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#282164;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container right fixedwidth" align="right" style="padding-right: 5px;padding-left: 5px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 5px;padding-left: 5px;" align="right"&gt;&lt;![endif]--&gt;
+												&lt;div style="font-size:1px;line-height:5px"&gt; &lt;/div&gt;&lt;img class="right fixedwidth" align="right" border="0" src="https://i.imgur.com/kw8tQfe.png" alt="star" title="star" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 27px; display: block;padding-top:7px" width="27"&gt;
+												&lt;div style="font-size:1px;line-height:5px"&gt; &lt;/div&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #F4B449; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid three-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 0px;" align="center"&gt;&lt;![endif]--&gt;&lt;img class="center fixedwidth" align="center" border="0" src="https://i.imgur.com/Ia2oW45.png" alt="Kafu medal" title="Kafu_medal" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 74px; display: block;" width="74"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="line-height: 14px; text-align: center; font-size: 12px; margin: 0;"&gt;&lt;strong&gt;&lt;span style="font-size: 24px; line-height: 28px;"&gt;شكراً لأنك كفو &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+												&lt;br/&gt;&lt;br/&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 9px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													
+													&lt;p dir="rtl" style="line-height: 14px; text-align: center; font-size: 12px; margin: 0;"&gt;
+														
+														&lt;strong&gt;&lt;span style="font-size: 18px; line-height: 28px;"&gt;{KafuReason} &amp;#127775;
+														&lt;/span&gt;&lt;/strong&gt;
+														
+													&lt;/p&gt;
+												&lt;br&gt;&lt;br&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="font-size: 12px; line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #555555;"&gt;
+													&lt;p dir="rtl" style="font-size: 14px; line-height: 20px; text-align: center; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;جاك كفو من/ {From}&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="font-size: 12px; line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #555555;"&gt;
+													&lt;p dir="rtl" style="font-size: 14px; line-height: 20px; text-align: center; margin: 0;"&gt;&lt;span style="font-size: 17px; color: #808080; mso-ansi-font-size: 18px;"&gt;{position}
+&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="font-size: 12px; line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #555555;"&gt;
+													&lt;p dir="rtl" style="font-size: 14px; line-height: 20px; text-align: center; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;{message}&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 25px; padding-left: 25px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:150%;padding-top:0px;padding-right:25px;padding-bottom:0px;padding-left:25px;"&gt;
+												&lt;div style="line-height: 18px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="line-height: 25px; text-align: center; font-size: 12px; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid three-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 0px;" align="center"&gt;&lt;![endif]--&gt;
+												&lt;div style="font-size:1px;line-height:10px"&gt; &lt;/div&gt;&lt;img class="center fixedwidth" align="center" border="0" src={KafuImgSource} alt={imgAlternative} title={imgAlternative} style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 148px; display: block;" width="148"&gt;
+												&lt;div style="font-size:1px;line-height:10px"&gt; &lt;/div&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+									&lt;br/&gt;&lt;br/&gt;
+								&lt;/div&gt;
+								
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				
+
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #F4B449; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid mixed-two-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 184px;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center  autowidth  fullwidth" align="center" style="padding-right: 0px;padding-left: 10px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 10px;" align="center"&gt;&lt;![endif]--&gt;&lt;img class="center  autowidth  fullwidth" align="center" border="0" src="https://i.imgur.com/Khh05Gm.png" alt="sfda" title="sfda" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 175px; display: block;" width="175"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="370" style="background-color:#F9F9F9;width:370px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num8" style="display: table-cell; vertical-align: top; min-width: 320px; max-width: 368px;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 10px; padding-left: 5px; padding-top: 3px; padding-bottom: 5px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:3px;padding-right:10px;padding-bottom:5px;padding-left:5px;"&gt;
+												&lt;div style="font-size: 12px; line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #555555;"&gt;
+													&lt;p dir="rtl" style="font-size: 14px; line-height: 13px; text-align: right; margin: 0;"&gt;&lt;span style="font-size: 11px; color: #808080;"&gt;جميع الحقوق محفوظة للهيئة العامة للغذاء والدواء 2022&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+	&lt;!--[if (IE)]&gt;&lt;/div&gt;&lt;![endif]--&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</value>
+  </data>
+  <data name="MangerBody" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;
+
+&lt;head&gt;
+	&lt;!--[if gte mso 9]&gt;&lt;xml&gt;&lt;o:OfficeDocumentSettings&gt;&lt;o:AllowPNG/&gt;&lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;&lt;/o:OfficeDocumentSettings&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+	&lt;meta name="viewport" content="width=device-width"&gt;
+	&lt;!--[if !mso]&gt;&lt;!--&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+	&lt;!--&lt;![endif]--&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;!--[if !mso]&gt;&lt;!--&gt;
+	&lt;!--&lt;![endif]--&gt;
+	&lt;style type="text/css"&gt;
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		table,
+		td,
+		tr {
+			vertical-align: top;
+			border-collapse: collapse;
+		}
+
+		* {
+			line-height: inherit;
+		}
+
+		a[x-apple-data-detectors=true] {
+			color: inherit !important;
+			text-decoration: none !important;
+		}
+
+		.ie-browser table {
+			table-layout: fixed;
+		}
+
+		[owa] .img-container div,
+		[owa] .img-container button {
+			display: block !important;
+		}
+
+		[owa] .fullwidth button {
+			width: 100% !important;
+		}
+
+		[owa] .block-grid .col {
+			display: table-cell;
+			float: none !important;
+			vertical-align: top;
+		}
+
+		.ie-browser .block-grid,
+		.ie-browser .num12,
+		[owa] .num12,
+		[owa] .block-grid {
+			width: 555px !important;
+		}
+
+		.ie-browser .mixed-two-up .num4,
+		[owa] .mixed-two-up .num4 {
+			width: 184px !important;
+		}
+
+		.ie-browser .mixed-two-up .num8,
+		[owa] .mixed-two-up .num8 {
+			width: 368px !important;
+		}
+
+		.ie-browser .block-grid.two-up .col,
+		[owa] .block-grid.two-up .col {
+			width: 276px !important;
+		}
+
+		.ie-browser .block-grid.three-up .col,
+		[owa] .block-grid.three-up .col {
+			width: 276px !important;
+		}
+
+		.ie-browser .block-grid.four-up .col [owa] .block-grid.four-up .col {
+			width: 138px !important;
+		}
+
+		.ie-browser .block-grid.five-up .col [owa] .block-grid.five-up .col {
+			width: 111px !important;
+		}
+
+		.ie-browser .block-grid.six-up .col,
+		[owa] .block-grid.six-up .col {
+			width: 92px !important;
+		}
+
+		.ie-browser .block-grid.seven-up .col,
+		[owa] .block-grid.seven-up .col {
+			width: 79px !important;
+		}
+
+		.ie-browser .block-grid.eight-up .col,
+		[owa] .block-grid.eight-up .col {
+			width: 69px !important;
+		}
+
+		.ie-browser .block-grid.nine-up .col,
+		[owa] .block-grid.nine-up .col {
+			width: 61px !important;
+		}
+
+		.ie-browser .block-grid.ten-up .col,
+		[owa] .block-grid.ten-up .col {
+			width: 60px !important;
+		}
+
+		.ie-browser .block-grid.eleven-up .col,
+		[owa] .block-grid.eleven-up .col {
+			width: 54px !important;
+		}
+
+		.ie-browser .block-grid.twelve-up .col,
+		[owa] .block-grid.twelve-up .col {
+			width: 50px !important;
+		}
+	&lt;/style&gt;
+	&lt;style type="text/css" id="media-query"&gt;
+		@media only screen and (min-width: 575px) {
+			.block-grid {
+				width: 555px !important;
+			}
+
+			.block-grid .col {
+				vertical-align: top;
+			}
+
+			.block-grid .col.num12 {
+				width: 555px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num3 {
+				width: 138px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num4 {
+				width: 184px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num8 {
+				width: 368px !important;
+			}
+
+			.block-grid.mixed-two-up .col.num9 {
+				width: 414px !important;
+			}
+
+			.block-grid.two-up .col {
+				width: 277px !important;
+			}
+
+			.block-grid.three-up .col {
+				width: 185px !important;
+			}
+
+			.block-grid.four-up .col {
+				width: 138px !important;
+			}
+
+			.block-grid.five-up .col {
+				width: 111px !important;
+			}
+
+			.block-grid.six-up .col {
+				width: 92px !important;
+			}
+
+			.block-grid.seven-up .col {
+				width: 79px !important;
+			}
+
+			.block-grid.eight-up .col {
+				width: 69px !important;
+			}
+
+			.block-grid.nine-up .col {
+				width: 61px !important;
+			}
+
+			.block-grid.ten-up .col {
+				width: 55px !important;
+			}
+
+			.block-grid.eleven-up .col {
+				width: 50px !important;
+			}
+
+			.block-grid.twelve-up .col {
+				width: 46px !important;
+			}
+		}
+
+		@media (max-width: 575px) {
+
+			.block-grid,
+			.col {
+				min-width: 320px !important;
+				max-width: 100% !important;
+				display: block !important;
+			}
+
+			.block-grid {
+				width: 100% !important;
+			}
+
+			.col {
+				width: 100% !important;
+			}
+
+			.col&gt;div {
+				margin: 0 auto;
+			}
+
+			img.fullwidth,
+			img.fullwidthOnMobile {
+				max-width: 100% !important;
+			}
+
+			.no-stack .col {
+				min-width: 0 !important;
+				display: table-cell !important;
+			}
+
+			.no-stack.two-up .col {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num4 {
+				width: 33% !important;
+			}
+
+			.no-stack .col.num8 {
+				width: 66% !important;
+			}
+
+			.no-stack .col.num4 {
+				width: 33% !important;
+			}
+
+			.no-stack .col.num3 {
+				width: 25% !important;
+			}
+
+			.no-stack .col.num6 {
+				width: 50% !important;
+			}
+
+			.no-stack .col.num9 {
+				width: 75% !important;
+			}
+
+			.video-block {
+				max-width: none !important;
+			}
+
+			.mobile_hide {
+				min-height: 0px;
+				max-height: 0px;
+				max-width: 0px;
+				display: none;
+				overflow: hidden;
+				font-size: 0px;
+			}
+
+			.desktop_hide {
+				display: block !important;
+				max-height: none !important;
+			}
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class="clean-body" style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: #FFFFFF;"&gt;
+&lt;style type="text/css" id="media-query-bodytag"&gt;
+@media (max-width: 575px) {
+  .block-grid {
+    min-width: 320px!important;
+    max-width: 100%!important;
+    width: 100%!important;
+    display: block!important;
+  }
+  .col {
+    min-width: 320px!important;
+    max-width: 100%!important;
+    width: 100%!important;
+    display: block!important;
+  }
+  .col &gt; div {
+    margin: 0 auto;
+  }
+  img.fullwidth {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+  img.fullwidthOnMobile {
+    max-width: 100%!important;
+    height: auto!important;
+  }
+  .no-stack .col {
+    min-width: 0!important;
+    display: table-cell!important;
+  }
+  .no-stack.two-up .col {
+    width: 50%!important;
+  }
+  .no-stack.mixed-two-up .col.num4 {
+    width: 33%!important;
+  }
+  .no-stack.mixed-two-up .col.num8 {
+    width: 66%!important;
+  }
+  .no-stack.three-up .col.num4 {
+    width: 33%!important
+  }
+  .no-stack.four-up .col.num3 {
+    width: 25%!important
+  }
+}
+&lt;/style&gt;
+	&lt;!--[if IE]&gt;&lt;div class="ie-browser"&gt;&lt;![endif]--&gt;
+	&lt;table class="nl-container" style="table-layout: fixed; vertical-align: top; min-width: 320px; Margin: 0 auto; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF; width: 100%;" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="#FFFFFF" valign="top"&gt;
+		&lt;tbody&gt;
+			&lt;tr style="vertical-align: top;" valign="top"&gt;
+				&lt;td style="word-break: break-word; vertical-align: top; border-collapse: collapse;" valign="top"&gt;
+					&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td align="center" style="background-color:#FFFFFF"&gt;&lt;![endif]--&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid two-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: transparent;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+								&lt;div class="col num6" style="max-width: 320px; min-width: 277px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container right fixedwidth" align="right" style="padding-right: 10px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 10px;padding-left: 0px;" align="right"&gt;&lt;![endif]--&gt;&lt;img class="right fixedwidth" align="right" border="0" src="https://i.imgur.com/T0GoJzU.png" alt="logo" title="kafu logo" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 80px; display: block;" width="111"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #F4B449; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #282164; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid three-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 0px;" align="center"&gt;&lt;![endif]--&gt;&lt;img class="center fixedwidth" align="center" border="0"src="https://i.imgur.com/Ia2oW45.png" alt="Kafu medal" title="Kafu_medal" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 74px; display: block;" width="74"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 20px; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:5px;padding-right:20px;padding-bottom:5px;padding-left:20px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 20px; font-size: 14px; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;مرحبا/ {MangerName} &lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 5px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:5px;padding-right:0px;padding-bottom:14px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 14px; font-size: 12px; margin: 0;"&gt;&lt;strong&gt;&lt;span style="line-height: 28px; font-size: 24px;"&gt;عضو في فريقك حصل على كفو&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+                                            &lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 9px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													
+													&lt;p dir="rtl" style="line-height: 14px; text-align: center; font-size: 12px; margin: 0;"&gt;
+														&lt;br/&gt;
+														&lt;strong&gt;&lt;span style="font-size: 18px; line-height: 28px;"&gt;{KafuReason} &amp;#127775;
+														&lt;/span&gt;&lt;/strong&gt;
+														
+													&lt;/p&gt;
+												&lt;br&gt;&lt;br&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 20px; font-size: 14px; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;من / {From}&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:25px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 14px; font-size: 12px; margin: 0;"&gt;{position}
+ &lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 20px; font-size: 14px; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;إلى/ {receipentName}  &lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 20px; padding-left: 20px; padding-top: 0px; padding-bottom: 0px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:150%;padding-top:0px;padding-right:20px;padding-bottom:0px;padding-left:20px;"&gt;
+												&lt;div style="line-height: 18px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p dir="rtl" style="text-align: center; line-height: 25px; font-size: 12px; margin: 0;"&gt;&lt;span style="font-size: 17px; mso-ansi-font-size: 18px;"&gt;{message}&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid three-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 0px;" align="center"&gt;&lt;![endif]--&gt;
+												&lt;div style="font-size:1px;line-height:10px"&gt; &lt;/div&gt;&lt;img class="center fixedwidth" align="center" border="0" src={KafuImgSource} alt={imgAlternative} title={imgAlternative} style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 166px; display: block;" width="166"&gt;
+												&lt;div style="font-size:1px;line-height:10px"&gt; &lt;/div&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="max-width: 320px; min-width: 185px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div&gt;&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:0px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #282164; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid " style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="555" style="background-color:#F9F9F9;width:555px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num12" style="min-width: 320px; max-width: 555px; display: table-cell; vertical-align: top;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+												&lt;tbody&gt;
+													&lt;tr style="vertical-align: top;" valign="top"&gt;
+														&lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-collapse: collapse;" valign="top"&gt;
+															&lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-top: 4px solid #F4B449; height: 0px;" align="center" role="presentation" height="0" valign="top"&gt;
+																&lt;tbody&gt;
+																	&lt;tr style="vertical-align: top;" valign="top"&gt;
+																		&lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse;" height="0" valign="top"&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+														&lt;/td&gt;
+													&lt;/tr&gt;
+												&lt;/tbody&gt;
+											&lt;/table&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;div style="background-color:transparent;"&gt;
+						&lt;div class="block-grid mixed-two-up no-stack" style="Margin: 0 auto; min-width: 320px; max-width: 555px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; background-color: #F9F9F9;;"&gt;
+							&lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:#F9F9F9;"&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;table cellpadding="0" cellspacing="0" border="0" style="width:555px"&gt;&lt;tr class="layout-full-width" style="background-color:#F9F9F9"&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;td align="center" width="185" style="background-color:#F9F9F9;width:185px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num4" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 184px;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;div class="img-container center  autowidth  fullwidth" align="center" style="padding-right: 0px;padding-left: 10px;"&gt;
+												&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr style="line-height:0px"&gt;&lt;td style="padding-right: 0px;padding-left: 10px;" align="center"&gt;&lt;![endif]--&gt;&lt;img class="center  autowidth  fullwidth" align="center" border="0"  src="https://i.imgur.com/Khh05Gm.png" alt="sfda" title="sfda"  style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; clear: both; border: 0; height: auto; float: none; width: 100%; max-width: 175px; display: block;" width="175"&gt;
+												&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;/div&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;td align="center" width="370" style="background-color:#F9F9F9;width:370px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:5px;"&gt;&lt;![endif]--&gt;
+								&lt;div class="col num8" style="display: table-cell; vertical-align: top; min-width: 320px; max-width: 368px;;"&gt;
+									&lt;div style="width:100% !important;"&gt;
+										&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+											&lt;!--&lt;![endif]--&gt;
+											&lt;!--[if mso]&gt;&lt;table width="100%" cellpadding="0" cellspacing="0" border="0"&gt;&lt;tr&gt;&lt;td style="padding-right: 10px; padding-left: 5px; padding-top: 3px; padding-bottom: 5px; font-family: Tahoma, Verdana, sans-serif"&gt;&lt;![endif]--&gt;
+											&lt;div style="color:#555555;font-family:Tahoma, Verdana, Segoe, sans-serif;line-height:120%;padding-top:3px;padding-right:10px;padding-bottom:5px;padding-left:5px;"&gt;
+												&lt;div style="line-height: 14px; font-family: Tahoma, Verdana, Segoe, sans-serif; font-size: 12px; color: #555555;"&gt;
+													&lt;p style="text-align: right; line-height: 13px; font-size: 14px; margin: 0;" dir="rtl"&gt;&lt;span style="color: #808080; font-size: 11px;"&gt;جميع الحقوق محفوظة للهيئة العامة للغذاء والدواء 2022&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+											&lt;!--[if mso]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+											&lt;!--[if (!mso)&amp;(!IE)]&gt;&lt;!--&gt;
+										&lt;/div&gt;
+										&lt;!--&lt;![endif]--&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+								&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+					&lt;!--[if (mso)|(IE)]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+	&lt;!--[if (IE)]&gt;&lt;/div&gt;&lt;![endif]--&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</value>
+  </data>
+</root>
